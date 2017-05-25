@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="../js/angular.min.js"></script>
+
+<script>
+    var app = angular.module('myApp', []);
+    var myCtrl = app.controller('myCtrl', function($scope,myService) {
+        $scope.name = "John Doe";
+        $scope.myClik=function(){
+            myService.myClik();
+        };
+        $scope.firstName=myService.name;
+    });
+    var myService=app.service("myService",function(){
+        var myService = {
+            myClik:function () {
+              alert(5);
+            },
+            name:"lisi"
+
+        };
+        return myService;
+    });
+
+</script>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+    name: <input ng-model="name">
+<hr/>
+    {{name}}
+    <hr/>
+    {{firstName}}
+    <button ng-click="myClik()">click Me</button>
+</div>
+
+
+</body>
+</html>

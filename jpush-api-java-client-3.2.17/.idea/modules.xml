@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/jpush-api-java-client-3.2.17.iml" filepath="$PROJECT_DIR$/.idea/jpush-api-java-client-3.2.17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpush-api-java-client-3.2.17/jpush-client.iml" filepath="$PROJECT_DIR$/jpush-api-java-client-3.2.17/jpush-client.iml" />
+    </modules>
+  </component>
+</project>

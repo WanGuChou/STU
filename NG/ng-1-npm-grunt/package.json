@@ -1,0 +1,11 @@
+{
+  "name": "demo",
+  "version": "1.0.1",
+  "description": "grunt 安装",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wgc",
+  "license": "ISC"
+}
